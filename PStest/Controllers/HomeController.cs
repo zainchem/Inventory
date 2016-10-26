@@ -28,5 +28,20 @@ namespace PStest.Controllers
 
             return View();
         }
+
+        public PartialViewResult Inventory()
+        {
+            return PartialView("_Inventory");
+        }
+
+        public PartialViewResult LowSupplies()
+        {
+            return PartialView("_LowSupplies");
+        }
+
+        public PartialViewResult OrderedSupplies()
+        {
+            return PartialView("_OrderedSupplies");
+        }
     }
 }

@@ -17,7 +17,6 @@ namespace PStest.Controllers
     [InitializeSimpleMembership]
     public class AccountController : Controller
     {
-        //
         // GET: /Account/Login
 
         [AllowAnonymous]
@@ -27,7 +26,6 @@ namespace PStest.Controllers
             return View();
         }
 
-        //
         // POST: /Account/Login
 
         [HttpPost]

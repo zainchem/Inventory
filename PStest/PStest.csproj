@@ -192,6 +192,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\InventoryItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -325,6 +326,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Home\_LowSupplies.cshtml" />
     <Content Include="Views\Home\_OrderedSupplies.cshtml" />
+    <Content Include="Views\Home\_Inventory.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
